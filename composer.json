@@ -4,13 +4,15 @@
     "type": "library",
     "description": "PostmarkApp Service Provider for the Silex PHP Microframework",
     "keywords": ["mail","email", "postmarkapp","silex"],
+    
     "require": {
         "php": ">=5.3.0",
         "centralapps/mail-core": "dev-master"
     },
+    
     "autoload": {
         "psr-0": { "LewisB\\PostmarkAppServiceProvider": "" }
-    }
+    },
     
 	"repositories": [
         {
