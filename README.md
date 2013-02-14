@@ -34,7 +34,7 @@ This is a service provider for the Silex PHP Microframework, it provides access 
 	$app->register(new LewisB\PostmarkServiceProvider\PostmarkServiceProvider(), array(
 	    'postmark.default_sender_name' => 'Bob',
 	    'postmark.default_sender_email' => 'bob@internet.com',
-	    'postmark.api_key' => 'your-api-ley'
+	    'postmark.api_key' => 'your-api-key'
 	));
 	
 	$sender = $app['postmark.default_email_sender'];
