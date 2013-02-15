@@ -11,7 +11,7 @@
     },
     
     "autoload": {
-        "psr-0": { "LewisB\\PostmarkAppServiceProvider": "src/" }
+        "psr-0": { "LewisB\\PostmarkServiceProvider": "src/" }
     },
     
 	"repositories": [
